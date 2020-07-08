@@ -1,12 +1,13 @@
-// Do not modify these first two lines
 let iceCreamFlavours = ["chocolate", "vanilla", "cookies and cream", "rocky road", "strawberry"];
 console.log(iceCreamFlavours);
-
 // Your code below here...
-iceCreamFlavours.push("rotbeer");
+iceCreamFlavours.push("root beer");
+console.log(iceCreamFlavours);
 console.log(iceCreamFlavours[0]);
-for (let flavour of iceCreamFlavours) {
-  console.log(flavour);
-  }
-let size = iceCreamFlavours.length;
-console.log (size);
+let size = (iceCreamFlavours.length - 1);
+console.log(iceCreamFlavours[size]);
+console.log (iceCreamFlavours.length);
+for (let i = 0; i < iceCreamFlavours.length; i++) {
+  console.log(iceCreamFlavours[i]);
+}
+
